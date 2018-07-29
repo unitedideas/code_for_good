@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eff1b8be-270c-45f8-be35-bb93f885f12d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eff1b8be-270c-45f8-be35-bb93f885f12d" name="Default Changelist" comment="form semi-complete">
+      <change beforePath="$PROJECT_DIR$/partners/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/migrations/0002_auto_20180728_2003.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/states.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/templates/partner/diaper_request.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/templates/partner/partner_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,22 +39,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="html" value="2" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1408" />
-          <entry key="py" value="192" />
+          <entry key="py" value="193" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
@@ -45,47 +62,13 @@
         <counts>
           <entry key="HTML" value="1408" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="192" />
+          <entry key="Python" value="193" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partner/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partner/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1532824149179" expanded="true" signature="380:385" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partner/util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code_for_good/settings.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,22 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partner/models.py">
+        <entry file="file://$PROJECT_DIR$/partner/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5586">
-              <caret line="279" column="4" selection-start-line="279" selection-start-column="4" selection-end-line="279" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partner/templates/partner/partner_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="105">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -119,15 +90,6 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partner/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partner/templates/partner/diaper_request.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -141,7 +103,7 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/partner" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,6 +113,7 @@
         <option value="$PROJECT_DIR$/partner/templates/partner/diaper_request.html" />
         <option value="$PROJECT_DIR$/partner/urls.py" />
         <option value="$PROJECT_DIR$/partner/templates/partner/partner_form.html" />
+        <option value="$PROJECT_DIR$/partners/apps.py" />
       </list>
     </option>
   </component>
@@ -180,11 +143,6 @@
           <expand>
             <path>
               <item name="code_for_good" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_for_good" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code_for_good" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_for_good" type="462c0819:PsiDirectoryNode" />
               <item name="code_for_good" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,7 +271,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="22" width="1391" height="878" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20978503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -366,7 +323,6 @@
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1532824149179" expanded="true" signature="380:385" ph="..." />
           </folding>
         </state>
       </provider>
@@ -405,7 +361,17 @@
     <entry file="file://$PROJECT_DIR$/partner/templates/partner/partner_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
