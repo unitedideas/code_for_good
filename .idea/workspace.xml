@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eff1b8be-270c-45f8-be35-bb93f885f12d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/code_for_good.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_for_good/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_for_good/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_for_good/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_for_good/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partner" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partner/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partner/templates/partner/partner_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/partner/templates/partner/partner_form.html" afterDir="false" />
-    </list>
+    <list default="true" id="eff1b8be-270c-45f8-be35-bb93f885f12d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partner/templates/partner/partner_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="359">
+              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -228,11 +213,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.partner_form.html">
-    <configuration name="diaper_request.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code_for_good/partner/templates/partner/diaper_request.html">
+  <component name="RunManager" selected="Django server.code_for_good">
+    <configuration name="diaper_request.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/code_for_good/partner/templates/partner/diaper_request.html">
       <method v="2" />
     </configuration>
-    <configuration name="partner_form.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code_for_good/partner/templates/partner/partner_form.html">
+    <configuration name="localhost:8000" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8000">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:8000" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8000">
       <method v="2" />
     </configuration>
     <configuration name="code_for_good" type="Python.DjangoServer" factoryName="Django server">
@@ -261,12 +249,12 @@
     <list>
       <item itemvalue="Django server.code_for_good" />
       <item itemvalue="JavaScript Debug.diaper_request.html" />
-      <item itemvalue="JavaScript Debug.partner_form.html" />
+      <item itemvalue="JavaScript Debug.localhost:8000" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.partner_form.html" />
-        <item itemvalue="JavaScript Debug.diaper_request.html" />
+        <item itemvalue="JavaScript Debug.localhost:8000" />
+        <item itemvalue="JavaScript Debug.localhost:8000" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1532825879520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="form semi-complete">
+      <created>1532830825694</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532830825694</updated>
+    </task>
+    <task id="LOCAL-00003" summary="form semi-complete">
+      <created>1532831114799</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532831114799</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -383,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partner/templates/partner/partner_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="359">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
         </state>
       </provider>
     </entry>
