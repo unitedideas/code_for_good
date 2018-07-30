@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eff1b8be-270c-45f8-be35-bb93f885f12d" name="Default Changelist" comment="form semi-complete">
+    <list default="true" id="eff1b8be-270c-45f8-be35-bb93f885f12d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_for_good/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_for_good/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +18,7 @@
     <session id="-1301755195">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -26,30 +27,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="2" />
-          <entry key="py" value="9" />
+          <entry key="html" value="6" />
+          <entry key="jpg" value="1" />
+          <entry key="partner_forms" value="1" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="7" />
+          <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1408" />
-          <entry key="py" value="193" />
+          <entry key="css" value="234" />
+          <entry key="html" value="1772" />
+          <entry key="py" value="232" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1408" />
+          <entry key="CSS" value="234" />
+          <entry key="HTML" value="1772" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="193" />
+          <entry key="Python" value="232" />
         </counts>
       </usages-collector>
     </session>
@@ -64,6 +72,24 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bann</find>
+      <find>width</find>
+      <find>static</find>
+      <find>login</find>
+      <find>green</find>
+      <find>field</find>
+      <find>element</find>
+      <find>div</find>
+      <find>logo</find>
+      <find>input</find>
+      <find>label</find>
+      <find>text_</find>
+      <find>pass</find>
+      <find>main</find>
+    </findStrings>
+  </component>
   <component name="Git.Rebase.Settings">
     <option name="ONTO" value="refs/remotes/origin/master" />
   </component>
@@ -74,12 +100,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/code_for_good/settings.py" />
-        <option value="$PROJECT_DIR$/partner/views.py" />
-        <option value="$PROJECT_DIR$/partner/templates/partner/diaper_request.html" />
-        <option value="$PROJECT_DIR$/partner/urls.py" />
-        <option value="$PROJECT_DIR$/partner/templates/partner/partner_form.html" />
         <option value="$PROJECT_DIR$/partners/apps.py" />
+        <option value="$PROJECT_DIR$/code_for_good/settings.py" />
+        <option value="$PROJECT_DIR$/partner/templates/partner/partner_forms" />
+        <option value="$PROJECT_DIR$/partner/templates/partner/partner_forms.html" />
+        <option value="$PROJECT_DIR$/partner/templates/partner/test.html" />
+        <option value="$PROJECT_DIR$/partner/templates/partner/diaper_request.html" />
+        <option value="$PROJECT_DIR$/partner/templates/partner/partner_form.html" />
+        <option value="$PROJECT_DIR$/partner/views.py" />
+        <option value="$PROJECT_DIR$/partner/urls.py" />
+        <option value="$PROJECT_DIR$/partner/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -121,6 +151,19 @@
               <item name="code_for_good" type="462c0819:PsiDirectoryNode" />
               <item name="partner" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code_for_good" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code_for_good" type="462c0819:PsiDirectoryNode" />
+              <item name="partner" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code_for_good" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code_for_good" type="462c0819:PsiDirectoryNode" />
+              <item name="partner" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="partner" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,7 +180,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/partner/static" />
+      <recent name="$PROJECT_DIR$/partner" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/partner/templates/partner" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/partner" />
     </key>
@@ -154,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.code_for_good">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
     <configuration name="diaper_request.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/code_for_good/partner/templates/partner/diaper_request.html">
       <method v="2" />
     </configuration>
@@ -162,6 +210,12 @@
       <method v="2" />
     </configuration>
     <configuration name="localhost:8000" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8000">
+      <method v="2" />
+    </configuration>
+    <configuration name="partner_form.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code_for_good/partner/templates/partner/partner_form.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code_for_good/partner/templates/partner/test.html">
       <method v="2" />
     </configuration>
     <configuration name="code_for_good" type="Python.DjangoServer" factoryName="Django server">
@@ -191,9 +245,13 @@
       <item itemvalue="Django server.code_for_good" />
       <item itemvalue="JavaScript Debug.diaper_request.html" />
       <item itemvalue="JavaScript Debug.localhost:8000" />
+      <item itemvalue="JavaScript Debug.partner_form.html" />
+      <item itemvalue="JavaScript Debug.test.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.partner_form.html" />
         <item itemvalue="JavaScript Debug.localhost:8000" />
         <item itemvalue="JavaScript Debug.localhost:8000" />
       </list>
@@ -238,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532831265076</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="form semi-complete">
+      <created>1532884103382</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532884103382</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -248,7 +313,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896462" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -305,38 +370,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/partner/forms.py" />
-    <entry file="file://$PROJECT_DIR$/partner/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partner/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code_for_good/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partner/templates/partner/diaper_request.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partner/templates/partner/partner_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
@@ -354,17 +391,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partner/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partner/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1204">
           <caret line="272" column="5" lean-forward="true" selection-start-line="272" selection-start-column="5" selection-end-line="272" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/static/images/banner1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_for_good/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/templates/partner/partner_forms">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="42" column="30" selection-end-line="60" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/templates/partner/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="37" column="29" lean-forward="true" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/templates/partner/partner_forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="12" lean-forward="true" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/templates/partner/diaper_request.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partner/templates/partner/partner_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
         </state>
       </provider>
     </entry>
